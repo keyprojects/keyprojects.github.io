@@ -6,7 +6,7 @@
  
  $emil_from='https://keyprojects.github.io/';
  $email_subject ="Message from my site"
- $email_body= "Name : $name.\n".
+ $email_body= "Name : $name\n".
 				"Email : $mail\n".
 				"Message: $message\n";
 				
