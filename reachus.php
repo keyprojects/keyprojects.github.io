@@ -1,14 +1,14 @@
 
 
 <?php
-$name = $_POST['submit'];
+$submit = $_POST['submit'];
  $name = $_post['name'];
   $mail = $_post['email'];
  $name = $_post['message'];
 
  
  $emil_from="https://keyprojects.github.io/";
- $email_subject ="Message from my site"
+ $email_subject ="Message from my site";
  $email_body= "Name : $name\n".
 				"Email : $mail\n".
 				"Message: $message\n";
