@@ -1,6 +1,7 @@
 
 
 <?php
+/*
 $submit = $_POST['submit'];
  $name = $_post['name'];
   $mail = $_post['email'];
@@ -41,6 +42,28 @@ require_once "reachus.php";
 ?>
 
 			*/
+			
+			
+			
+			
+			
+if (isset($_POST['submit'])) {
+    $mail = $_POST['email']; 
+    $subject = $_POST['name'];
+    $message = $_POST[message];
+    $from = "https://keyprojects.github.io/";
+    $headers = "From:" . $from;
+	$toEmail = "pavandpanchal@gmail.com";
+
+
+    if (mail($toEmail, $mail  , $subject, $message, $headers)) {
+        echo "Mail Sent.";
+    }
+    else {
+        echo "failed";
+    }
+}
+
 			
 			
 
