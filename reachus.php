@@ -1,7 +1,7 @@
 
 
 <?php
-/*
+$name = $_POST['submit'];
  $name = $_post['name'];
   $mail = $_post['email'];
  $name = $_post['message'];
@@ -19,9 +19,8 @@
 			mail($to, $email_subject , $email_body, $headers );
 
 			header("Location : index.html");
-			
-			*/
-
+	
+/*
 
 <?php
 if(!empty($_POST["submit"])) 
@@ -41,7 +40,7 @@ if(!empty($_POST["submit"]))
 require_once "reachus.php";
 ?>
 
-			
+			*/
 			
 			
 
