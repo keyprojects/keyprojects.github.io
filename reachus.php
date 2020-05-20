@@ -4,7 +4,7 @@
  $name = $_post['message'];
 
  
- $emil_from='C:\Users\Administrator\Desktop\Folio\index.html';
+ $emil_from='https://keyprojects.github.io/';
  $email_subject ="Message from my site"
  $email_body= "Name : $name.\n".
 				"Email : $ mail\n".
