@@ -1,4 +1,7 @@
+
+
 <?php
+/*
  $name = $_post['name'];
   $mail = $_post['email'];
  $name = $_post['message'];
@@ -17,5 +20,14 @@
 
 			header("Location : index.html");
 			
+			*/
+
+
+
+
 			
+			
+			
+
  ?>
+
