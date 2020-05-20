@@ -48,6 +48,7 @@ require_once "reachus.php";
 			
 			
 if (isset($_POST['submit'])) {
+	$submit= $_POST['submit'];
     $mail = $_POST['email']; 
     $subject = $_POST['name'];
     $message = $_POST[message];
