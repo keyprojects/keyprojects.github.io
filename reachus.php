@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
     $message = $_POST[message];
     $from = "https://keyprojects.github.io/";
     $headers = "From:" . $from;
-	$toEmail = "pavandpanchal@gmail.com";
+	$toEmail = $submit;
 
 
     if (mail($toEmail, $mail  , $subject, $message, $headers)) {
