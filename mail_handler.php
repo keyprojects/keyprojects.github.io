@@ -1,7 +1,7 @@
 
 
 <?php
-/*
+if(
 $submit = $_POST['submit'];
  $name = $_post['name'];
   $mail = $_post['email'];
@@ -20,10 +20,12 @@ $submit = $_POST['submit'];
 			mail($to, $email_subject , $email_body, $headers );
 
 			header("Location : index.html");
-	
-/*
+	)
+	{
+echo "pass1";
 
-<?php
+elseif(
+
 if(!empty($_POST["submit"])) 
 {
 	$name = $_POST["name"];
@@ -39,9 +41,13 @@ if(!empty($_POST["submit"]))
 	}
 }
 require_once "reachus.php";
-?>
 
-			*/
+)
+{
+	echo "pass2";
+}
+
+else(
 			
 			
 			
@@ -64,7 +70,10 @@ if (isset($_POST['submit'])) {
         echo "failed";
     }
 }
-
+)
+{
+	echo"pass3";
+}
 			
 			
 
